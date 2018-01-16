@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xxx.christmascard.MainActivity">
+
+
+    <ImageView
+        android:contentDescription="@string/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/back2" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="12dp"
+        android:fontFamily="cursive"
+        android:text="@string/Merry_Christmas"
+        android:textColor="#E1BEE7"
+        android:textSize="28sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:padding="12dp"
+        android:fontFamily="cursive"
+        android:text="@string/May_the_force"
+        android:textColor="#E1BEE7"
+        android:textSize="28sp" />
+
+
+</RelativeLayout>
